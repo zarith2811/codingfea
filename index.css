@@ -1,0 +1,105 @@
+body {
+    background:#9DC183;        
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #3F704D, #708238);
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+    box-shadow: 0 10px 14px rgba(26, 24, 24, 0.164);
+}
+    
+header nav ul {
+    list-style: none;
+    padding: 0;
+    }
+    
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+    
+/*Nav Bar*/
+header nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+    
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Header Title */
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  #98FB98;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}     
+
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    transition: all;
+    text-align: center;
+}
+
+.home-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(3, 122, 49, 0.808);
+    text-align: center;
+}
+
+p {
+    color: black;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+.social-links {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 15px; /* Space between the icons */
+  }
+  
+  .social-links a {
+    display: inline-block;
+    width: 50px; /* Icon size */
+    height: 50px; /* Icon size */
+  }
+  
+  .social-links img {
+    width: 100%; /* Ensures the image fits the link box */
+    height: 100%; /* Ensures the image fits the link box */
+    border-radius: 50%; /* Optional: makes the icon round */
+    transition: transform 0.3s ease; /* Optional: for smooth scaling effect */
+  }
+  
+  .social-links img:hover {
+    transform: scale(1.1); /* Makes the icon slightly larger on hover */
+  }
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(135deg, #3F704D, #708238);
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+}

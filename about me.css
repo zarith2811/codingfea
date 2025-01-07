@@ -1,0 +1,67 @@
+body {
+    background: #9DC183;
+      padding: 20px;
+      font-family: Arial;
+      margin: 0;
+      padding: 0;
+}
+    
+/* Header Title */
+header {
+    font-family: 'Times New Roman', Times, serif;
+    color: #76FF7A;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+    
+.biodata-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px; 
+    box-shadow: 0 10px 20px rgba(3, 122, 49, 0.808);
+    text-align: center;
+}
+    
+/* Profile Images */
+.profile-images img {
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    border: 3px solid #2eb635;
+    box-shadow: 0 4px 8px rgba(90, 221, 123, 0.808);
+    transition: transform 0.3s ease-in-out;
+}
+    
+.profile-images img:hover {
+    transform: rotate(9deg) scale(1.0);
+}
+
+.back-button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none; /* Removes underline from the link */
+    display: inline-block; /* Make the link behave like a button */
+}
+
+.back-button:hover {
+    background-color: #45a049; /* Darker green when hovered */
+}
+
+/* Style the footer */
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(135deg, #3F704D, #708238);
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+}
+    
